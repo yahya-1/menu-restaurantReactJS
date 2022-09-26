@@ -1,0 +1,50 @@
+.title {
+  position: relative;
+  color: #224f61;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 64px;
+
+}
+
+
+.title::before {
+  content: "";
+  position: absolute;
+  transform: translate(7%, 7%);
+  bottom: -15px;
+  height: 1px;
+  width: 200px;
+  border-radius: 10px;
+  border: 2px solid #b45b35;
+  margin-bottom: 10px;
+}
+
+.butt {
+
+  color: #B45B35;
+  font-size: 18px;
+  border-radius: 11px;
+  border: 1px solid #B45B35;
+  background-color: transparent;
+
+}
+
+.butt:hover {
+  color: wheat;
+  border: none;
+  font-weight: bold;
+  background-color: #B45B35;
+}
+
+@media(max-width:575px) {
+  .custom-height {
+    max-width: 100%;
+  }
+}
+
+.item-price {
+  color: #B45B35;
+  font-weight: bold;
+  line-height: 24px;
+}

@@ -1,0 +1,12 @@
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #f8f8f8;
+
+
+  font-family: 'Almarai', sans-serif;
+}
